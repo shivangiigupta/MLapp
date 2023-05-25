@@ -3,7 +3,6 @@ numpy
 pandas
 seaborn
 matplotlib
-os
 pandas_profiling
 streamlit_pandas_profiling
 pycaret
