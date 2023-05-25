@@ -32,14 +32,13 @@ if os.path.exists("sourcev.csv"):
 
 with st.sidebar:
     st.header("Welcome to MLapp")
-    st.subheader("Following Application is made for machine learning models.")
-    st.caption("Choose your parameters :- ")
+    st.info("A cutting-edge machine learning web application designed to revolutionize your data-driven journey. Our app empowers you to uncover valuable insights, make informed decisions, and unlock the full potential of your data. With this application you can embark on exciting projects. Leverage our state-of-the-art algorithms, extensive libraries, and interactive visualizations to gain a deeper understanding of your data, predict future outcomes, and optimize decision-making.")
+    st.subheader("Choose your parameters :- ")
     choose=st.radio("👇",["Dataset","Analysis","Training","Download"])
 
 # upload the dataset from the directory
 if choose=="Dataset":
-    st.write("Please upload your dataset here.")
-    dataset_value = st.file_uploader("Upload your dataset here")
+    dataset_value = st.file_uploader("Please upload your dataset here:-")
    
     if dataset_value:
         df = pd.read_csv(dataset_value, index_col=None)
