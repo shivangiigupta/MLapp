@@ -34,7 +34,7 @@ with st.sidebar:
     st.header("Welcome to MLapp")
     st.subheader("Following Application is made for machine learning models.")
     st.caption("Choose your parameters :- ")
-    choose=st.radio(":coffee:",["Dataset","Analysis","Training","Download"])
+    choose=st.radio("👇",["Dataset","Analysis","Training","Download"])
 
 # upload the dataset from the directory
 if choose=="Dataset":
