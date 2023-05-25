@@ -1,6 +1,7 @@
 streamlit 
 numpy 
-pandas 
+pandas
+seaborn
 matplotlib
 os
 pandas_profiling
